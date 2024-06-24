@@ -1,0 +1,47 @@
+/* Estilos customizados */
+body {
+    padding-top: 4.5rem; /* Ajuste para compensar a barra de navegação fixa */
+}
+
+.carousel {
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.profile img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Estilos adicionados para ajustar a navegação */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s;
+}
+
+.navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+    .navbar .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
