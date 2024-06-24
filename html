@@ -1,192 +1,131 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matheus Greco</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Celke - Carousel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Matheus Greco</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#perfil">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#repositorios">Repositórios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#conteudo">Conteúdo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#colegas">Colegas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-
-<style>
-    .description {
-        margin-left: 20px;
-        margin-top: -320px;
-    }
-</style>
-
-<style>
-    .location {
-        margin-left: 230px;
-        margin-top: 22px;
-    }
-</style>
-<style>
-    .biografia {
-        margin-left: 230px;
-        margin-top: 50px;
-    }
-</style>
-
-<style>
-    .profile {
-        margin-left: 25px;
-        margin-top: 75px;
-    }
-</style>
-
-<style>
-    .website {
-        margin-left: 230px;
-        margin-top: 8px;
-    }
-</style>
-
-<style>
-    .social-links {
-        margin-left: 230px;
-        margin-top: -5px;
-    }
-</style>
-
-<style>
-    #horizontal-line {
-        width: 100%; 
-        margin: 0; 
-        border: none; 
-        border-top: 3px solid black; 
-        position: absolute; 
-        top: 11%; 
-    }
-</style>
-
-<style>
-    #horizontal-line2 {
-        width: 100%; 
-        margin: 0; 
-        border: none; 
-        border-top:3px solid black; 
-        position: absolute; 
-        top: 15%; 
-    }
-</style>
-
-<style>
-    .sec1 {
-        margin-left: 95%;
-        margin-top: -315px;
-    }
-</style>
-
-<style>
-    .sec2 {
-        margin-left: 90%;
-        margin-top: -27px;
-    }
-</style>
-
-<style>
-    .sec3 {
-        margin-left: 85%;
-        margin-top: -26px;
-    }
-</style>
-<style>
-    .rep {
-        margin-left: 2%;
-        margin-top: 400px;
-    }
-</style>
-
-
-
-</head>
-<body>
-    <hr id="horizontal-line">
-    <h1 class="bg-primary">Matheus Greco</h1>
-
-    <div class="profile">
-        <img src="Foto Matheus.png" alt=" = "width="180">
-
-    </div>
-
-    <div class="description">
-        <h2>Perfil</h2>
-
-    </div>
-
-    <div class="biografia">
-        <h4> Matheus Greco Morais Dall'Alba</h4>
-        <p>Aluno do curso de ciências da computação na Puc Minas.
-         Nascido na cidade de Itaguara, no interior de Minas Gerais. <br>
-         Estou em BH para tentar uma carreira como programador após e/ou
-         durante o curso.
-        </p>
-    </div>
-
-    </div>
-
-
-    <div class="location">
-        <h6>localização:</h6>   <p>Belo Horizonte, MG, Brasil</p>
-    </div>
-
-    <div class="website">
-        <p><a href="https://github.com/GRECO-flameel">GitHub</a></p>
-    </div>
-
-    <div class="social-links">
-        <a href="https://www.instagram.com/matheus_greco_?igsh=ajU0dDkzZmJneGF5"><img src="logo inst.png" alt="" width="30"></a>
-        <a href="https://www.facebook.com/profile.php?id=100016546833973&locale=pt_BR"><img src="logo face.png" alt="" width="30"></a>
-    </div>
     
-    <div class="sec1">
-<h6> seção 3</h6>
 
+      <div class="row mt-4">
+        <div class="col-md-3 text-center">
+          <img src="imagens/Foto Matheus.png" alt="" width="180" class="profile img-fluid">
+        </div>
+        <div class="col-md-9">
+          <h2>Perfil</h2>
+          <h4>Matheus Greco Morais Dall'Alba</h4>
+          <p>Aluno do curso de ciências da computação na Puc Minas. Nascido na cidade de Itaguara, no interior de Minas Gerais. Estou em BH para tentar uma carreira como programador após e/ou durante o curso.</p>
+          <p><strong>Localização:</strong> Belo Horizonte, MG, Brasil</p>
+          <p><a href="https://github.com/GRECO-flameel">GitHub</a></p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/matheus_greco_?igsh=ajU0dDkzZmJneGF5"><img src="imagens/logo inst.png" alt="" width="30"></a>
+            <a href="https://www.facebook.com/matheus.greco.14"><img src="imagens/logo face.png" alt="" width="30"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5" id="repositorios">
+        <h4>REPOSITÓRIOS:</h4>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <a href="repo.html">ti-1-pmg-cc-t-20241-fios-de-bondade</a>
+                <p>Trabalho sobre um site para ajudar a facilitar a realização de doações de roupas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <a href="repo2.html">Site Pessoal</a>
+                <p>Site que fala um pouco sobre Matheus Greco</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr id="horizontal-line3">
+
+      <div class="mt-5" id="conteudo">
+        <h5>CONTEÚDO SUGERIDO:</h5>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagens/git 1.jpg" class="d-block w-100" alt="categoria 1">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/git 2.jpg" class="d-block w-100" alt="categoria 2">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/git 3.jpg" class="d-block w-100" alt="categoria 3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mt-5" id="colegas">
+        <h5>COLEGAS DE TRABALHO:</h5>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <img src="imagens/apolo.png" alt="foto 1" width="150px" class="img-fluid">
+            <h6>APOLO</h6>
+          </div>
+          <div class="col-sm-4">
+            <img src="imagens/luis.png" alt="foto 2" width="150px" class="img-fluid">
+            <h6>LUIS HENRIQUE</h6>
+          </div>
+          <div class="col-sm-4">
+            <img src="imagens/rayssa.png" alt="foto 3" width="150px" class="img-fluid">
+            <h6>RAYSSA</h6>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="sec2">
-<h6> seção 2</h6>
-        
-    </div>
-     
-    <div class="sec3">
-<h6> seção 1</h6>
-                
-     </div>
-
-     <div class="rep">
-        <h4> REPOSITÓRIOS:</h4>
-     </div>
-     <hr id="horizontal-line 2">
-     <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <a href="repo.html">ti-1-pmg-cc-t-20241-fios-de-bondade
-            </a>
-               <p>Trabalho sobre um site para ajudar a facilitar a realização de <br>
-                doações de roupas.
-               </p>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
